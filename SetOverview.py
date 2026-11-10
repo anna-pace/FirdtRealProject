@@ -5,4 +5,4 @@ df = pd.read_csv("u_food_marketing.csv")
 df.head()
 df.describe()
 
-df["value"].mean()
+df["value"].min()
